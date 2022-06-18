@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.dashboard-container {
+  width: 100vw;
+  height: 100vh;
+
+  background-color: grey;
+}
+
+.card-container {
+  width: 1400px;
+  background-color: white;
+  padding: 20px;
+  position: fixed;
+  right: 100px;
+  top: 100px;
+}
+
+.Cardnavbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn-addcard {
+  width: 200px;
+}
+
+.card-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card-item1 {
+  width: 150px;
+  height: 250px;
+  background: yellow;
+}
+
+.card-item2 {
+  width: 150px;
+  height: 250px;
+  background: purple;
+}
+
+.bottom-container {
+  display: flex;
+  justify-content: space-around;
+  width: 90vw;
+  height: 550px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+.pie-container {
+  width: 50%;
+  height: 100%;
+  background-color: rgb(210, 169, 169);
+}
+
+.overall-container {
+  width: 50%;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  padding-top: 8%;
+  align-items: center;
+  background-color: rgb(79, 0, 250);
+}
+.asset-container {
+  width: 100px;
+  height: 70px;
+}
+
+.overall-item1 .overall-item2 {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  flex-direction: row;
+}
+
+.balance .spending .saved .netgross {
+  width: 50px;
+  height: 50px;
+  z-index: 5;
+  background-color: rgba(31, 117, 238, 0.416);
+}
